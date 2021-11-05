@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "react-app",
+    "react-app/jest",
+    "eslint:recommended",
+    "prettier"
+  ],
+  "rules": {
+    "react/prop-types": 0,
+    "@typescript-eslint/explicit-module-boundary-types": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "error"
+  }
+}
