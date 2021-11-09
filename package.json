@@ -9,9 +9,11 @@
   "dependencies": {
     "@line/liff": "^2.16.1",
     "@reduxjs/toolkit": "^1.6.2",
+    "history": "5",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
-    "react-redux": "^7.2.6"
+    "react-redux": "^7.2.6",
+    "react-router-dom": "6"
   },
   "devDependencies": {
     "@types/react": "^17.0.0",
