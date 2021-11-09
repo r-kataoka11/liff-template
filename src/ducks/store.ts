@@ -1,11 +1,13 @@
 import { combineReducers, configureStore } from '@reduxjs/toolkit'
 import auth from './auth/authSlice'
+import { baseApi } from './baseApi'
 
 /**
  * Reducer
  */
 const reducer = combineReducers({
   auth,
+  [baseApi.reducerPath]: baseApi.reducer,
 })
 
 /**
@@ -13,6 +15,8 @@ const reducer = combineReducers({
  */
 export const store = configureStore({
   reducer,
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware().concat(baseApi.middleware),
 })
 
 /**
