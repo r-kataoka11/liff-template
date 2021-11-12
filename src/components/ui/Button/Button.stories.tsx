@@ -1,11 +1,18 @@
-import { ComponentMeta, ComponentStory } from '@storybook/react'
+import { ComponentStory, Meta } from '@storybook/react'
 import React from 'react'
 import { Button } from './Button'
 
 export default {
   title: 'Inputs/Button',
   component: Button,
-} as ComponentMeta<typeof Button>
+  parameters: {
+    docs: {
+      description: {
+        component: '共通で使用できるボタンコンポーネント',
+      },
+    },
+  },
+} as Meta
 
 const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />
 
