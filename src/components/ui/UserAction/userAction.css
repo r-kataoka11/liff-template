@@ -1,0 +1,22 @@
+.user-action {
+  display: flex;
+  align-items: center;
+}
+
+.user-action-thumbnail {
+  width: 48px;
+  margin: 0;
+  margin-right: 16px;
+}
+
+.user-action-thumbnail__img {
+  border: 2px solid #fff;
+  border-radius: 100%;
+  width: 100%;
+}
+
+.user-action-name {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
