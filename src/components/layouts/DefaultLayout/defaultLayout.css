@@ -1,0 +1,12 @@
+.default-layout {
+  position: relative;
+}
+
+.default-layout__header {
+  position: sticky;
+  top: 0;
+}
+
+.default-layout__content {
+  padding: 24px;
+}
