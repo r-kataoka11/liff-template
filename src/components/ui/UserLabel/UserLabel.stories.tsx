@@ -1,10 +1,10 @@
 import { ComponentStory, Meta } from '@storybook/react'
 import React from 'react'
-import { UserActionPresenter as UserAction } from './UserAction'
+import { UserLabel } from './UserLabel'
 
 export default {
-  title: 'Header/UserAction',
-  component: UserAction,
+  title: 'Header/UserLabel',
+  component: UserLabel,
   parameters: {
     docs: {
       description: {
@@ -14,8 +14,8 @@ export default {
   },
 } as Meta
 
-const Template: ComponentStory<typeof UserAction> = (args) => (
-  <UserAction {...args} />
+const Template: ComponentStory<typeof UserLabel> = (args) => (
+  <UserLabel {...args} />
 )
 
 export const Default = Template.bind({})

@@ -1,10 +1,10 @@
 import React, { useCallback } from 'react'
 import { useDispatch } from 'react-redux'
 import { logoutLiff } from '../../ducks/auth/authThunk'
+import { UserAction } from '../domain/UserAction/UserAction'
 import { UserProfile } from '../domain/UserProfile/UserProfile'
 import { DefaultLayout } from '../layouts/DefaultLayout/DefaultLayout'
 import { Header } from '../ui/Header/Header'
-import { UserAction } from '../ui/UserAction/UserAction'
 
 export const TopPage = () => {
   const dispatch = useDispatch()
