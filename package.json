@@ -1,5 +1,5 @@
 {
-  "name": "liff-sample",
+  "name": "liff-template",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
