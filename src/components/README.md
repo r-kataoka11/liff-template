@@ -1,5 +1,7 @@
 # コンポーネントについて
 
+[![English](https://img.shields.io/badge/lang-en-orange.svg)](https://github.com/r-kataoka11/liff-template/blob/master/src/components/README.en.md)
+
 このディレクトリはプロジェクトの性質に合わせて自由に構成して頂いて構いません。
 
 上記の理由のためUIライブラリを導入したくないので、生のCSSを買いています。なので生のCSSを書くことに従う必要はないです。
