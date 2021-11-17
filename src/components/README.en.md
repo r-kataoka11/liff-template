@@ -1,4 +1,5 @@
 # About Components
+[![Japanese](https://img.shields.io/badge/lang-ja-yellow.svg)](https://github.com/r-kataoka11/liff-template/blob/master/src/components/README.md)
 
 This directory can be freely configured to suit the nature of your project.
 

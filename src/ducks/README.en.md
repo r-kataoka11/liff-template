@@ -1,4 +1,5 @@
 # About Redux
+[![Japanese](https://img.shields.io/badge/lang-ja-yellow.svg)](https://github.com/r-kataoka11/liff-template/blob/master/src/ducks/README.md)
 
 This project uses the Re-ducks pattern. Please refer to the following for the file structure.
 

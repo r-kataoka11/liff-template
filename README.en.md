@@ -1,4 +1,7 @@
 # Rocket Start LIFF App Template
+
+[![Japanese](https://img.shields.io/badge/lang-ja-yellow.svg)](https://github.com/r-kataoka11/liff-template/blob/master/README.md)
+
 This is a web application template that specifically used for LIFF Applications. This template includes modern front-end technologies such as Redux Toolkit, React Router v6 and Vite! 
 
 ## Features
