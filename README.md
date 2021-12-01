@@ -1,4 +1,5 @@
 # LIFFアプリテンプレート
+[![English](https://img.shields.io/badge/lang-en-orange.svg)](https://github.com/r-kataoka11/liff-template/blob/master/README.en.md)
 
 LIFFアプリを作り始める際に実際に必要になってくるものを内包したテンプレートを作りました。
 

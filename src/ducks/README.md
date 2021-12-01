@@ -1,4 +1,5 @@
 # Reduxについて
+[![English](https://img.shields.io/badge/lang-en-orange.svg)](https://github.com/r-kataoka11/liff-template/blob/master/src/ducks/README.en.md)
 
 このプロジェクトではRe-ducksパターンを採用しています。ファイル構成については下記を参考にしてください。
 
